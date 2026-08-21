@@ -23,7 +23,3 @@ templates/
 ```
 
 The `habits` service is wired in as a local module replacement, so the two projects are developed together — `templates` acts against the habits gRPC contract.
-
-## What I learned
-
-This project deepened my experience with gRPC and Protocol Buffers from the client's perspective — working with a typed contract, calling a gRPC service, and testing that communication with mock-based tests using minimock and testify. It's the kind of client-service interaction that underpins microservice communication.
